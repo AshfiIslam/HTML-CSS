@@ -1,0 +1,11 @@
+.box {
+	width: 150px;
+	height: 150px;
+	background: fuchsia;
+	transform: translate(50%,50%)  scale(1.2) skew(10deg,5deg )
+}
+.wrap {
+	width: 150px;
+	height: 150px;
+	border: 1px solid grey;
+}

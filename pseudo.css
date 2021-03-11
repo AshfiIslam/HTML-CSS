@@ -1,0 +1,25 @@
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: #000;
+	position: relative;
+	left: 100px;
+}
+.box::before {
+content: "";
+display: block;
+width: 100px;
+height: 100px;
+background-color: green;
+position: absolute;
+left: -100px;
+}
+.box::after {
+content: "hello";
+display: block;
+width: 100px;
+height: 100px;
+background-color: green;
+position: absolute;
+left: 100px;
+}

@@ -1,0 +1,21 @@
+#demo {
+	width: 400px;
+	height: 100px;
+	background: #ddd;
+	padding: 10px;
+	box-sizing: border-box;
+
+}
+#demo h1 {
+	display: inline-block;
+	width: 200px;
+	height: 80px;
+	background: #ccc;
+
+}
+#demo p {
+	display: inline;
+}
+#link a {
+display: block;
+}
